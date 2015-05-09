@@ -80,8 +80,9 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   padding-bottom:15px;
-  color: #444444;
+  color: #0072bc;
   font-weight: bold;
+  font-family: lato;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: #444444;
@@ -327,7 +328,6 @@ td{
 }
 /* Logo Tile */
 #header #logo-wrap {
-  padding-left:20px;
   float:left;
   margin-top:25px;
   min-width: 610px;
@@ -350,9 +350,11 @@ h1#site-name a img {
   padding-right:20px;
 }
 h2#site-slogan {
-  font:14px Arial, Helvetica, sans-serif;
-  color:#666;
+  font: 15px lato;
+  color:#474747;
+  text-transform: uppercase;
   padding:8px 0 0 0;
+  clear: both;
 }
 
 
@@ -493,13 +495,11 @@ h2#site-slogan {
 
 #header #main-menu {
   float: left;
-  border:1px solid #ccc;
-  background-color:#fff;
-  margin-top:40px;
+  margin-top:20px;
+  margin-bottom: 10px;
   position:relative;
   width:976px;
   z-index:500;
-  box-shadow:0 1px 0px #fff;
 }
 .front #header #main-menu {
   box-shadow: none;
@@ -509,25 +509,29 @@ h2#site-slogan {
   list-style: none;
 }
 #header #main-menu ul li {
-  border-bottom: 1px solid #CCCCCC;
-  border-right: 1px solid #CCCCCC;
   float: left;
   margin-bottom: -1px;
   position: relative;
   list-style: none outside none;
+  height: 33px;
 }
 #header #main-menu ul li a {
   padding: 0 15px;
   display: block;
-  color: #fff;
-  font-size: 15px;
-  line-height: 48px;
-  color: #444;
+  color: #474747;
+  font-family: lato;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 33px;
+  letter-spacing: 0.1em;
   float: left;
+  border-right: 1px solid #474747;
 }
 #header #main-menu ul li a:hover, #header #main-menu ul li a.active, #header #main-menu ul li:hover > a {
-  background-color: #444;
+  background-color: #0072bc;
   color: #fff;
+  border: none;
 }
 
 /* Dropdown menu */
@@ -587,9 +591,6 @@ h2#site-slogan {
 /* =Featured Slider
 ----------------------------------------------- */
 .featured {
-  border-right:1px solid #ccc;
-  border-left:1px solid #ccc;
-  border-bottom:1px solid #ccc;
   background-color:#fff;
   height:313px;
   width:976px;
@@ -610,12 +611,16 @@ h2#site-slogan {
   position:absolute;
   top:0;
   left:0;
-  background:url(images/featured-img-effect.png);
+  /*background:url(images/featured-img-effect.png);*/
   z-index:10;
 }
 .featured-text {
   background-color: rgba(255, 255, 255, 0.5);
   padding: 10px;
+  font-family: lato;
+  text-transform: uppercase;
+  color:#0072bc;
+  font-size: 26px;
 }
 .featured-text span {
   font-size:15px;
@@ -627,11 +632,13 @@ h2#site-slogan {
 }
 .featured-left {
   position: absolute;
-  left: 5%;
+  left: 20px;
+  top: 20px;
 }
 .featured-right {
   position: absolute;
-  right: 5%;
+  top: 20px;
+  right: 20px;
 }
 
 /* Controllers */
@@ -640,7 +647,7 @@ h2#site-slogan {
   text-align:center;
 }
 #controllers a {
-  background-color: #B7B7B7;
+  background-color: #474747;
   display: inline-block;
   height: 12px;
   margin: 0 3px;
@@ -652,7 +659,7 @@ h2#site-slogan {
   border-radius: 6px;
 }
 #controllers a:hover, #controllers a.active {
-  background-color:#000;
+  background-color:#0072bc;
 }
 
 #breadcrumbs {
@@ -983,10 +990,7 @@ ol.search-results { padding-left: 0; }
 .search-results .search-snippet-info { padding-left: 0; }
 
 .submitted{
-  background: #eee;
-  padding: 4px 9px;
-  border-radius: 4px;
-  color: #383838;
+  color: #474747;
   text-shadow: 1px 1px #fff;
   clear: both;
   display: block;

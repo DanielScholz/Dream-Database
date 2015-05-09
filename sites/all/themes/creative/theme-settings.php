@@ -63,6 +63,10 @@ function creative_form_system_theme_settings_alter(&$form, &$form_state) {
     '#title' => t('Slide Description'),
     '#default_value' => theme_get_setting('slide3_desc','creative'),
   );
+  $form['creative_settings']['slideshow']['slide4'] = array(
+    '#type' => 'fieldset',
+    '#title' => t('Slide 4'),
+  );
   $form['creative_settings']['slideshow']['slide4']['slide4_desc'] = array(
     '#type' => 'textarea',
     '#title' => t('Slide Description'),

@@ -127,34 +127,42 @@
     <div class="featured-slider">
       <div class="slides displayblock">
         <div class="featured">
-          <div class="slide-image"><span class="img-effect pngfix"></span><img width="976" height="313" src="<?php print base_path() . drupal_get_path('theme', 'creative') . '/images/slide-image-1.jpg'; ?>" class="pngfix"/>
+          <div class="slide-image">
+            <?php print '<div class="featured-text featured-right">' . t('Write about your dreams and keep a dream diary') . '</div>'; ?><!-- .featured-text -->
+            <span class="img-effect pngfix"></span>
+            <img width="976" height="313" src="<?php print base_path() . drupal_get_path('theme', 'creative') . '/images/slide-image-1.jpg'; ?>" class="pngfix"/>
           </div> <!-- .slide-image -->
         </div> <!-- .featured -->
-        <?php if($slide1_desc) { print '<div class="featured-text">' . $slide1_desc . '</div>'; } ?><!-- .featured-text -->
       </div> <!-- .slides -->
 
-      <div class="slides displaynone">
+      <div class="slides displayblock">
         <div class="featured">
-          <div class="slide-image"><span class="img-effect pngfix"></span><img width="976" height="313" src="<?php print base_path() . drupal_get_path('theme', 'creative') . '/images/slide-image-2.jpg'; ?>" class="pngfix"/>
+          <div class="slide-image">
+            <?php print '<div class="featured-text featured-left">' . t('Discover the world of love inside of our users dreams') . '</div>'; ?><!-- .featured-text -->
+            <span class="img-effect pngfix"></span>
+            <img width="976" height="313" src="<?php print base_path() . drupal_get_path('theme', 'creative') . '/images/slide-image-2.jpg'; ?>" class="pngfix"/>
           </div> <!-- .slide-image -->
         </div> <!-- .featured -->
-        <?php if($slide1_desc) { print '<div class="featured-text">' . $slide2_desc . '</div>'; } ?><!-- .featured-text -->
       </div> <!-- .slides -->
 
-      <div class="slides displaynone">
+      <div class="slides displayblock">
         <div class="featured">
-          <div class="slide-image"><span class="img-effect pngfix"></span><img width="976" height="313" src="<?php print base_path() . drupal_get_path('theme', 'creative') . '/images/slide-image-3.jpg'; ?>" class="pngfix"/>
+          <div class="slide-image">
+            <?php print '<div class="featured-text featured-left">' . t('Live through our users most horriffic nightmares') . '</div>'; ?><!-- .featured-text -->
+            <span class="img-effect pngfix"></span>
+            <img width="976" height="313" src="<?php print base_path() . drupal_get_path('theme', 'creative') . '/images/slide-image-3.jpg'; ?>" class="pngfix"/>
           </div> <!-- .slide-image -->
         </div> <!-- .featured -->
-        <?php if($slide1_desc) { print '<div class="featured-text">' . $slide3_desc . '</div>'; } ?><!-- .featured-text -->
       </div> <!-- .slides -->
 
-      <div class="slides displaynone">
+      <div class="slides displayblock">
         <div class="featured">
-          <div class="slide-image"><span class="img-effect pngfix"></span><img width="976" height="313" src="<?php print base_path() . drupal_get_path('theme', 'creative') . '/images/slide-image-4.jpg'; ?>" class="pngfix"/>
+          <div class="slide-image">
+            <?php print '<div class="featured-text featured-right">' . t('Experience and meet people with lucid dreams') . '</div>'; ?><!-- .featured-text -->
+            <span class="img-effect pngfix"></span>
+            <img width="976" height="313" src="<?php print base_path() . drupal_get_path('theme', 'creative') . '/images/slide-image-4.jpg'; ?>" class="pngfix"/>
           </div> <!-- .slide-image -->
         </div> <!-- .featured -->
-        <?php if($slide1_desc) { print '<div class="featured-text">' . $slide4_desc . '</div>'; } ?><!-- .featured-text -->
       </div> <!-- .slides -->
 
     </div>

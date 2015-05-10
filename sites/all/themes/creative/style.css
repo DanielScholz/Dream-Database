@@ -531,7 +531,7 @@ h2#site-slogan {
 #header #main-menu ul li a:hover, #header #main-menu ul li a.active, #header #main-menu ul li:hover > a {
   background-color: #0072bc;
   color: #fff;
-  border: none;
+  border-right: 1px solid #0072bc;
 }
 
 /* Dropdown menu */
@@ -1060,6 +1060,34 @@ ul.menu li {
   margin: 0;
   padding: 0;
 }
+
+ul.menu li a {
+  color:#474747;
+}
+
+#block-system-user-menu ul.menu {
+  margin: 0;
+}
+#block-system-user-menu ul.menu li {
+  margin: 0;
+  list-style: inside none none;
+  background-repeat: no-repeat;
+  background-position: 0px 4px;
+  padding: 0 0 0 20px;
+}
+
+  ul.menu li.account {
+    background-image: url("images/profile.png");
+  }
+  ul.menu li.logout {
+    background-image: url("images/eye-blocked.png");
+  }
+  ul.menu li.contact {
+    background-image: url("images/point-right.png");
+  }
+  ul.menu li.dream {
+    background-image: url("images/cloud.png");
+  }
 
 ul.inline {
   clear: both;
